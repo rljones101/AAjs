@@ -1,0 +1,7 @@
+.fade-animation{
+    padding: 4px;
+    list-style: none;
+    background-color: lightblue;
+    margin-bottom: 15px;
+    opacity: 0;
+}

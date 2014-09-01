@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animate JS</title>
+    <link href="app.css" rel="stylesheet"/>
+</head>
+<body ng-app="myApp">
+
+<div ng-controller="NavCtrl">
+    <input type="checkbox" ng-model="fadeNav"> Fade nav in..
+    <ul >
+       <li ng-repeat="item in navItems" aajs-fade="fadeNav"  class="repeat-item">{{item}}</li>
+    </ul>
+</div>
+
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+
+<script src="app/app.js"></script>
+<script src="../src/AAjs.js"></script>
+<script src="app/controllers/NavController.js"></script>
+</body>
+</html>
